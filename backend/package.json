@@ -1,7 +1,7 @@
 {
-    "name": "plantation-management-api",
+    "name": "school-management-api",
     "version": "1.0.0",
-    "description": "API para gerenciamento de usuários e plantações",
+    "description": "API para gerenciamento de escola",
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
