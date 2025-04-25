@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar">
         <a href="index.html">Usuários</a>
-        <a href="plantations.html">Plantações</a>
+        <a href="plantations.html">Turmas</a>
     </nav>
 
     <h1>Usuários Cadastrados</h1>
@@ -20,7 +20,7 @@
             <tr>
                 <th>Nome</th>
                 <th>Perfil</th>
-                <th>Ações</th>
+                <th>Função</th>
             </tr>
         </thead>
         <tbody>
@@ -37,10 +37,14 @@
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
 
+                <label for="name">Email:</label>
+                <input type="text" id="email" name="email" required>
+
                 <label for="profile">Perfil:</label>
                 <select id="profile" name="profile" required>
-                    <option value="admin">Admin</option>
-                    <option value="user">User</option>
+                    <option value="admin">Diretor(a)</option>
+                    <option value="user">Coordenador(a)</option>
+                    <option value="user">Secretário(a)</option>
                 </select>
 
                 <label for="password">Senha:</label>

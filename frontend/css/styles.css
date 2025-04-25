@@ -26,19 +26,19 @@ th, td {
 
 button {
     padding: 10px 15px;
-    background-color: #4CAF50;
+    background-color: #4587a5;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #81c2d4;
 }
 
 /* Menu de navegação */
 .navbar {
-    background-color: #333;
+    background-color: #103566;
     overflow: hidden;
 }
 

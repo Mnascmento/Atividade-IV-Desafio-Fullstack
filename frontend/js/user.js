@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         const userData = {
             name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
             profile: document.getElementById('profile').value,
             password: document.getElementById('password').value
         };
